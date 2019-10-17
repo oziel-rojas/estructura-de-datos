@@ -1,0 +1,41 @@
+				EL ORDANAMIENTO
+
+Es el proceso de cambiar la posicion de un grupo de datos con el objetivo de 
+obtener un orden ascendente o descendente.
+Los tipos de datos a ordenar pueden ser simples (int, float , str) o tipos 
+complejos en la POO (PROGRAMACION ORIENTADA OBJETOS) o ADT.
+En la practica la mayoria de los casos se requiere ordenar ADTS.
+
+Ordenamiento -- Es uno de los temas mas estudiados en ciencias de a computacion
+dando como resultado diferentes algoritmos de ordenamiento y avances en el diseño
+de algoritmos.
+
+Normalmente el ordenamiento esta en capa de la aplicacion "Capa de base de datos"
+Para explotar los datos necesitamos un conjunto de programas, nos ayuda a realizar 
+modificaciones "Sistema de gestor de datos"
+
+Metodo de la BURBUJA
+	Consta en iterar multiples veces sobre un arreglo de datos, causando que
+	el elemento mas grande (pesado) vaya al fondo (final) del grupo de datos.
+	Del mismo modo provoca que los elementos de valor menor (ligeros) se 
+	muevan al principio (flotar).
+
+	En cada iteracion se toma el primer dato (extrema Izquierda) se compara
+	con el elemento siguiente y si ele elemento siguiente es menor que el 
+	actual se intercambian las pocosiones y el cursor cambia al siguiente 
+	elemento
+
+	8	5	9	3
+	¬
+	5	8	9	3
+		¬
+	5	8	9	3
+			¬
+	5	8	3	9
+		¬
+	5	3	8	9
+	¬
+	3	5	8	9
+	
+
+	
